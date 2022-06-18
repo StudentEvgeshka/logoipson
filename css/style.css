@@ -1,0 +1,182 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+
+} */
+body{
+    font-family: 'DM Sans', sans-serif;;
+}
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.header,.footer{
+    background-color:rgba(255,113,67,0.27);
+    padding: 38px 0 48px 0;
+}
+
+.nav_li, .footer_li{
+    display: inline-block;
+   
+}
+.nav_li:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.footer_li:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.nav_link, .footer_link{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+    
+}
+.nav_link:hover, .footer_link:hover{
+    color:#19191B;
+    transition: 300ms;
+    
+}
+.button{
+    border-radius: 10px;
+    border: none;
+    width: 212px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button_orange{
+    background: #FF7143;
+}
+.button_orange:hover{
+    background: rgba(255,113,67,0.50);
+    transition: 200ms;
+}
+/*перша секція*/
+.block1_items_1{
+    max-width: 467px;
+}
+.block1_title{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+.block1_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    margin-bottom: 50px;
+}
+.button_violet{
+    background:  #5454D4;
+}
+.button_transparent{
+    background:  none;
+    color:#5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+/*друга секція*/
+.block2_items_2{
+    max-width: 556px;    
+}
+.block2_title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B; 
+    margin-bottom: 38px;
+}
+.block2_edit{
+    background:  none;
+    border: 1px solid #5454D4;
+    margin-right: 35px;
+    border-radius: 10px;
+    width: 286px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    padding-left:14px;
+}
+/*третя секція*/
+.block3_title{
+    max-width: 504px;
+    margin-top: 85px;
+    margin-bottom: 98px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+/*четверта секція*/
+.block4_items{
+    width: 282px;
+    text-align: center;
+    background: #edebeb;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 132px;
+}
+.block4_items p{
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
+
+.block4_items h3{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+}
+
+.button_block4{
+    background-color: #ffffff;
+    color:#5454D4;
+    width:100%
+}
+
+.block4_items_orange{
+    background: #FF7143;
+}
+.block4_items_orange p{
+    color: #FFFFFF;
+}
+.block4_items_orange h3{
+    color: #FFFFFF;
+}
+.button_block4_orange{
+    color:#ffffff;
+    background: #9F3919;
+}
